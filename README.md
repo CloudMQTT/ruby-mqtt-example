@@ -1,4 +1,4 @@
-= Ruby MQTT Example
+# Ruby MQTT Example
 
 How to run:
 
