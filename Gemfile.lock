@@ -1,10 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mqtt (0.0.9)
+    mqtt (0.5.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   mqtt
+
+BUNDLED WITH
+   1.15.4
