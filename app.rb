@@ -7,7 +7,8 @@ conn_opts = {
   remote_host: uri.host,
   remote_port: uri.port,
   username: uri.user,
-  password: uri.password
+  password: uri.password,
+  ssl: uri.scheme == "mqtts"
 }
 topic = uri.path[1, uri.path.length] || 'test'
 
